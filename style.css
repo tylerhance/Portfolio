@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -26,7 +27,7 @@ h1 {
 }
 
 h2  {
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 header {
@@ -36,6 +37,11 @@ header {
     background-color: var(--header);
 }
 
+main {
+    flex: auto;
+
+}
+
 li {
     display: inline;
     padding: 20x;
@@ -43,10 +49,18 @@ li {
     align-items: flex-end;
 }
 
+.icon {
+    display: flex left;
+    border-radius: 10px;
+    height: 120px;
+    width: 80px;
+    
+}
+
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 100;
-    margin-top: 80px;
+    margin-top: 20px;
     justify-content: center;
 }
 
@@ -64,13 +78,14 @@ nav ul li {
     flex-wrap: wrap;
 }
 /* Class Selectors */
-.text-center {
+.text-left {
     text-align: center;
     text-decoration-style: wavy;
 }
 
 span {
     color: #ffba52;
+    font-weight: bolder;
 }
 
 .text-right {
