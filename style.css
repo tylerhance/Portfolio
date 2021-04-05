@@ -21,6 +21,12 @@ body {
     color: var(--textcolor);
 }
 
+span {
+    color: #ffba52;
+    font-weight: bolder;
+}
+
+
 h1 {
     font-family: var(--fontstyle),Arial, Helvetica, sans-serif;
     font-size: 50px;
@@ -55,17 +61,7 @@ li  {
     padding: 20x;
     justify-content: space-around;
     align-items: flex-end;
-}
-
-.icon {
-    position: relative;
-    display: flex right;
-    border-radius: 10px;
-    height: 300px;
-    width: 900px;
-    margin-left: 10px;
-    box-shadow: var(--header), gray;
-    
+    list-style-type: square;
 }
 
 p {
@@ -89,7 +85,31 @@ nav ul li {
     flex-wrap: wrap;
 }
 
+form {
+    margin-top: 30px;
+    flex: auto;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
 /* Class Selectors */
+.icon {
+    position: relative;
+    display: flex right;
+    border-radius: 10px;
+    height: 300px;
+    width: 900px;
+    margin-left: 10px;
+    margin-top: 10px;
+    box-shadow: var(--header), gray;
+    
+}
+
 .matrix {
     flex: auto;
     margin-top: 64px;
@@ -124,11 +144,6 @@ nav ul li {
     justify-content: space-evenly;
 }
 
-span {
-    color: #ffba52;
-    font-weight: bolder;
-}
-
 .horiseon {
     margin-top: 10px;
     flex: auto;
@@ -141,15 +156,6 @@ span {
     flex-wrap: wrap;
     flex: auto;
     margin-top: 30px;
-}
-
-form {
-    margin-top: 30px;
-    flex: auto;
-    flex-wrap: wrap;
-    padding: 20px;
-    justify-content: space-between;
-    align-items: center;
 }
 
 #email {
