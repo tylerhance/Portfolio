@@ -110,14 +110,19 @@ nav ul li {
 
 }
 
-span {
-    color: #ffba52;
-    font-weight: bolder;
-}
-
 .text-right {
     text-align: right;
     justify-content: space-evenly;
+}
+
+.text-name {
+    text-align: 
+    
+}
+
+span {
+    color: #ffba52;
+    font-weight: bolder;
 }
 
 .horiseon {
@@ -143,9 +148,13 @@ form {
     align-items: center;
 }
 
+#email {
+    margin-left: -6px;
+}
+
 .submit {
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 30px;
 
 }
