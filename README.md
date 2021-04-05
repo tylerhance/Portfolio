@@ -11,6 +11,8 @@ This project was assigned to have me start building out my main portfolio websit
 
 <h2>Links</h2>
 
-* 
+* Check out my portfoilio @ https://tylerhance.github.io/webdev-portfolio/
+
+
 
 ![MyPortfolioScreenshot](./images/screenshot2.png)
