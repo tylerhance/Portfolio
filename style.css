@@ -43,7 +43,7 @@ main {
 
 }
 
-li {
+li  {
     display: inline;
     padding: 20x;
     justify-content: space-around;
@@ -78,6 +78,7 @@ nav ul li {
     flex: auto;
     flex-wrap: wrap;
 }
+
 /* Class Selectors */
 .mountains {
     flex: auto;
@@ -93,11 +94,20 @@ nav ul li {
     justify-content: flex-start;
     flex: auto;
     flex-wrap: wrap;
-    margin-top: 20px;;
+    margin-top: 20px;
+    list-style-type: circle;
+
 }
 .text-left {
     text-align: center;
     text-decoration-style: wavy;
+}
+
+.text-center {
+    flex: auto;
+    justify-content: flex-start;
+    margin-left: 30px;
+
 }
 
 span {
@@ -107,7 +117,15 @@ span {
 
 .text-right {
     text-align: right;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.horiseon {
+    margin-top: 10px;
+    flex: auto;
+    height: 200px;
+    width: 400px;
+    box-shadow: black, darkslategray, grey;
 }
 
 #contact {
@@ -124,4 +142,13 @@ form {
     justify-content: space-between;
     align-items: center;
 }
+
+.submit {
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+
+
 
