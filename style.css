@@ -9,6 +9,7 @@
     --bg: #f8f7f7;
     --header: #3186a7;
     --textcolor: #2a2b30;
+    --fontstyle: "Noto Sans JP", bolder;
 
 }
 
@@ -21,14 +22,20 @@ body {
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fontstyle),Arial, Helvetica, sans-serif;
     font-size: 50px;
     justify-content: baseline;
     margin-top: 10px;
+    font-family: "Noto Sans JP", Arial, Helvetica, sans-serif;
 }
 
 h2  {
     margin-top: 100px;
+}
+
+#my-work {
+    font-family: var(--fontstyle), Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
 
 header {
@@ -51,10 +58,12 @@ li  {
 }
 
 .icon {
-    display: flex left;
+    position: relative;
+    display: flex right;
     border-radius: 10px;
     height: 120px;
-    width: 80px;
+    width: 100px;
+    margin-left: 850px;
     
 }
 
@@ -115,11 +124,6 @@ nav ul li {
     justify-content: space-evenly;
 }
 
-.text-name {
-    text-align: 
-    
-}
-
 span {
     color: #ffba52;
     font-weight: bolder;
@@ -156,7 +160,6 @@ form {
     align-items: center;
     margin-top: 10px;
     margin-left: 30px;
-
 }
 
 
