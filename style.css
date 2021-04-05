@@ -61,9 +61,10 @@ li  {
     position: relative;
     display: flex right;
     border-radius: 10px;
-    height: 120px;
-    width: 100px;
-    margin-left: 850px;
+    height: 300px;
+    width: 900px;
+    margin-left: 10px;
+    box-shadow: var(--header), gray;
     
 }
 
@@ -89,10 +90,9 @@ nav ul li {
 }
 
 /* Class Selectors */
-.mountains {
+.matrix {
     flex: auto;
     margin-top: 64px;
-    opacity: 75%;
     width: 100%;
     height: 300px;
     
