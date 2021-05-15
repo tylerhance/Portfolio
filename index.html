@@ -14,19 +14,36 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;900&display=swap" rel="stylesheet">  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Advent+Pro&family=KoHo&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
       <!-- Main Site Navigation Links -->
-      <nav class="text-right">
-        <ul>
-          <li> <a href="https://github.com/tylerhance " target="_blank">Github</a></li>
-          <li><a href="#about-me">About Me</a></li>
-          <li> <a href="#my-work">My Work</a></li>
-          <li> <a href="#contact">Contact</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #3186a7">
+        <a class="navbar-brand" href="#"><img src="https://img.icons8.com/cotton/64/000000/laptop-coding.png"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav navbar-center">
+            <li class="nav-item active" >
+              <a class="nav-link" href="https://github.com/tylerhance" target="_blank">Github <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#my-work">My Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
+
     </header>
   <main>
       <section>
@@ -52,14 +69,49 @@
         <h2 id="my-work">- My Work -</h2>
           <nav class="work-list">
           <ul>
-            <li><u>Horiseon - Semantic Code Refactor:</u></a></li><br>
-            <a href="https://github.com/tylerhance/Horiseon-accessibility-code-refactor" target="_blank">
-            <img src="./assets/images/screenshot.png" class="horiseon" alt="screenshot of horiseon project"></a></li>
+            <li><u>Cook 'N' Brew:</u></a></li><br>
+            <a href="https://cmartin1336.github.io/Cook-N-Brew/" target="_blank">
+            <img src="./assets/images/CookNBrew.png" class="cook-brew" alt="screenshot of project1"></a>
+            <p><u>Description:</u> Cook 'N' Brew is an app built collaboratively with some of my fellow coders. The concept of the app is to allow users to prepare home-cooked meals by selecting a specific food category,
+                then find/discover local breweries to pair with your meal! Check out the Github repo <a href="https://github.com/CMartin1336/Cook-N-Brew" target="_blank">here</a> for more details.
+                Or click the image to try out the app for yourself!
             <br><br>
-            <li>"Project coming soon..."</li>
+            <li><u>Weather Dashboard:</u></a></li><br>
+            <a href="https://tylerhance.github.io/weather-dashboard/" target="_blank">
+            <img src="./assets/images/weatherDashoard.png" class="weather-dashboard" alt="screenshot of weather dashboard"></a>
+            <p><u>Description:</u> This was a project I built utilizing HTML, CSS (Bootstrap), JavaScript, jQuery, and the OpenWeather API to provide the user a 5-day forecast. Based on the user
+              input for city, the current temperature, humidity, wind speed, and UV index populates. The app also uses localStorage to recall the previous searched cities until the user
+              clicks the "Clear History" button. Check out the deployed link by clicking the image or the Github repo <a href="https://github.com/tylerhance/weather-dashboard" target="_blank">here</a> for more details.
+            </p>
             <br><br>
-            <li>"Project coming soon..."</li>
+            <li><u>Work Day Planner:</u></a></li><br>
+            <a href="https://tylerhance.github.io/Work-Day-Planner/" target="_blank">
+            <img src="./assets/images/workdayscreenshot.png" class="work-day-planner" alt="screenshot of work day planner"></a>
+            <p><u>Description:</u> The work day planner was built to help the user better organize their busy work day. The app allows the user to input an appointment or meeting 
+              for each hour of the day and saves the input locally. I utilized HTML, CSS, JavaScript, jQuery, and moment.js to make it all come together. 
+              Check out the deployed link by clicking the image or the Github repo <a href="https://github.com/tylerhance/Work-Day-Planner" target="_blank">here</a> for more details.
+            </p>
+            <br><br>
+            <li><u>Code Quiz Challenge:</u></a></li><br>
+            <a href="https://tylerhance.github.io/Code-Quiz-Challenge/" target="_blank">
+            <img src="./assets/images/codequiz.png" class="code-quiz" alt="screenshot of code quiz"></a>
+            <p><u>Description:</u> The Code Quiz Challenge was built with the concept of testing the knowledge of any fellow or aspiring programmer. It is a timed multiple choice quiz
+              that deducts points for every wrong answer. If the user completes the quiz, they are asked to enter their initials and the high score is saved locally to reference later.
+              I utilized HTML, CSS, and mainly JavaScript/DOM manipulation to display all the questions and high scores. Check out the deployed link by clicking the image or the Github repo 
+              <a href="https://github.com/tylerhance/Code-Quiz-Challenge" target="_blank">here</a> for more details.
+            </p>
+            <br><br>
+            <li><u>Random Password Generator:</u></a></li><br>
+            <a href="https://tylerhance.github.io/Random-Password-Generator/" target="_blank">
+            <img src="./assets/images/pwdgenscreenshot.png" class="pwd-generator" alt="screenshot of password generator"></a>
+            <p><u>Description:</u> Ever get tired of making up your own password? Need something secure and unpredictable? The random password generator will give you a secure
+              password that is never the same twice. A series of prompts will pop up asking the user for a specified password length, uppercase/lowercase characters, and special characters. 
+              Based on what the user inputs, a random password generates inside the box after the prompts are validated. This password can then be copied and used accordingly wherever the user sees fit. 
+              Check out the deployed link by clicking the image or the Github repo 
+              <a href="https://github.com/tylerhance/Random-Password-Generator" target="_blank">here</a> for more details.
+            </p>
           </ul>
+          <br>
         </nav>
         <!-- Contact me section for future clients -->
         <section id="contact">

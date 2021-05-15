@@ -79,12 +79,24 @@ section {
     background-color: var(--bg);
 }
 
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 nav ul li {
     text-align: center;
     justify-content: flex-start;
     flex: auto;
     flex-wrap: wrap;
     list-style-type: circle;
+}
+
+.nav-link {
+    color: var(--navy);
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px teal;
 }
 
 ul::marker {
@@ -178,7 +190,39 @@ footer {
     text-decoration: underline;
 }
 
-.horiseon {
+.cook-brew {
+    margin-top: 10px;
+    flex: auto;
+    height: 200px;
+    width: 400px;
+    box-shadow: black, darkslategray, grey;
+}
+
+.weather-dashboard {
+    margin-top: 10px;
+    flex: auto;
+    height: 200px;
+    width: 400px;
+    box-shadow: black, darkslategray, grey;
+}
+
+.work-day-planner {
+    margin-top: 10px;
+    flex: auto;
+    height: 200px;
+    width: 400px;
+    box-shadow: black, darkslategray, grey;
+}
+
+.code-quiz {
+    margin-top: 10px;
+    flex: auto;
+    height: 200px;
+    width: 400px;
+    box-shadow: black, darkslategray, grey;
+}
+
+.pwd-generator {
     margin-top: 10px;
     flex: auto;
     height: 200px;
@@ -203,5 +247,19 @@ footer {
     margin-left: 30px;
 }
 
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
 
 
