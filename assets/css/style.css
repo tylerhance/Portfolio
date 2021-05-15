@@ -23,13 +23,6 @@ body {
     color: var(--textcolor);
 }
 
-a.nav-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly, space-between;
-}
-
 /* Emphasizing style */
 span {
     color: #68048f;
@@ -86,12 +79,24 @@ section {
     background-color: var(--bg);
 }
 
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 nav ul li {
     text-align: center;
     justify-content: flex-start;
     flex: auto;
     flex-wrap: wrap;
     list-style-type: circle;
+}
+
+.nav-link {
+    color: var(--navy);
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px teal;
 }
 
 ul::marker {
@@ -185,7 +190,39 @@ footer {
     text-decoration: underline;
 }
 
-.horiseon {
+.cook-brew {
+    margin-top: 10px;
+    flex: auto;
+    height: 200px;
+    width: 400px;
+    box-shadow: black, darkslategray, grey;
+}
+
+.weather-dashboard {
+    margin-top: 10px;
+    flex: auto;
+    height: 200px;
+    width: 400px;
+    box-shadow: black, darkslategray, grey;
+}
+
+.work-day-planner {
+    margin-top: 10px;
+    flex: auto;
+    height: 200px;
+    width: 400px;
+    box-shadow: black, darkslategray, grey;
+}
+
+.code-quiz {
+    margin-top: 10px;
+    flex: auto;
+    height: 200px;
+    width: 400px;
+    box-shadow: black, darkslategray, grey;
+}
+
+.pwd-generator {
     margin-top: 10px;
     flex: auto;
     height: 200px;
