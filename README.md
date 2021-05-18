@@ -15,4 +15,4 @@ This project was assigned to have me start building out my main portfolio websit
 
 
 
-![MyPortfolioScreenshot](./assets/images/newscreenshot.jpeg)
+![MyPortfolioScreenshot](./assets/images/portfolioscreenshot.jpeg)
