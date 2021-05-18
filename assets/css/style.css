@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 /* Custom elements applied throughout */
@@ -12,7 +12,41 @@
     --header: #3186a7;
     --textcolor: #2a2b30;
     --fontstyle: "Noto Sans JP", bolder;
+}
 
+.navbar-collapse ul {
+    background-color: var(--header);
+}
+
+.bigContainer {
+    display: flex;
+    margin: 20px;
+    border: 2px solid black;
+    border-style: ridge;
+    border-width: 5px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+}
+
+.bigContainer p {
+    flex-wrap: wrap;
+    margin-left: 30px;
+    font-size: 25px;
+    width: 700px;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-container h1 {
+    text-decoration: underline;
 }
 
 body {
@@ -32,13 +66,14 @@ span {
 
 
 h1 {
-    font-family: var(--fontstyle),Arial, Helvetica, sans-serif;
+    font-family: var(--fontstyle), Arial, Helvetica, sans-serif;
     font-size: 50px;
     justify-content: baseline;
     margin-top: 10px;
     font-family: "Noto Sans JP", Arial, Helvetica, sans-serif;
     text-shadow: 2px 2px 8px var(--header);
     text-decoration: underline;
+    font-weight: bolder;
 }
 
 h2  {
@@ -68,8 +103,8 @@ li {
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 100;
-    margin-top: 20px;
-    justify-content: center;
+    /* margin-top: 20px; */
+
 }
 
 section {
@@ -77,6 +112,11 @@ section {
     padding: 20px 10px 40px 10px;
     border-top: 3px solid #22f0df;
     background-color: var(--bg);
+}
+
+.navContainer {
+    display: flex;
+    
 }
 
 .navbar-nav.navbar-center {
@@ -99,6 +139,11 @@ nav ul li {
     text-shadow: 1px 1px 1px teal;
 }
 
+a.nav-link {
+    margin-left: 80px;
+    
+}
+
 ul::marker {
     list-style-type: circle;
 }
@@ -117,16 +162,14 @@ footer {
 }
 
 /* Class and ID Selectors */
-.icon {
+.img-fluid {
     flex: auto;
     border-radius: 10px;
-    height: 300px;
-    width: 825px;
+    height: 400px;
+    width: 350px;
     margin-left: 10px;
     margin-top: 10px;
-    box-shadow: var(--header), gray;
-    
-    
+    box-shadow: var(--header), gray; 
 }
 
 /* Class for image seperating content */
@@ -138,6 +181,10 @@ footer {
     
 }
 
+.skills {
+    font-size: 25px;
+}
+
 #about-me {
     font-family: var(--fontstyle);
     font-weight: bolder;
@@ -147,14 +194,21 @@ footer {
     text-decoration: underline;
 }
 
+.about-meText {
+    font-size: 25px;
+}
+
 .work-list {
     text-align: left;
-    justify-content: flex-start;
-    flex: auto;
+    display: flex;
     flex-wrap: wrap;
-    margin-top: 20px;
-    list-style-type: circle;
-
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: flex-start;
+    flex: auto;
+    flex-wrap: wrap; 
+    /* margin-top: 20px; */
 }
 
 /* Class for h1 heading */
@@ -191,42 +245,11 @@ footer {
 }
 
 .cook-brew {
+    display: flex;
     margin-top: 10px;
     flex: auto;
-    height: 200px;
-    width: 400px;
-    box-shadow: black, darkslategray, grey;
-}
-
-.weather-dashboard {
-    margin-top: 10px;
-    flex: auto;
-    height: 200px;
-    width: 400px;
-    box-shadow: black, darkslategray, grey;
-}
-
-.work-day-planner {
-    margin-top: 10px;
-    flex: auto;
-    height: 200px;
-    width: 400px;
-    box-shadow: black, darkslategray, grey;
-}
-
-.code-quiz {
-    margin-top: 10px;
-    flex: auto;
-    height: 200px;
-    width: 400px;
-    box-shadow: black, darkslategray, grey;
-}
-
-.pwd-generator {
-    margin-top: 10px;
-    flex: auto;
-    height: 200px;
-    width: 400px;
+    height: 500px;
+    width: 650px;
     box-shadow: black, darkslategray, grey;
 }
 
