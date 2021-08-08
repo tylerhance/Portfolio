@@ -2,7 +2,7 @@
 
 <h2>Description</h2>
 
-This project was assigned to have me start building out my main portfolio website from scratch. It will be a platform to show off my abilities and accomplishments to my peers and future employeer. 
+This project was assigned to have me start building out my main portfolio website from scratch. It will be a platform to show off my abilities and accomplishments to my peers and future employer. 
 
 <h2>Design Decisions</h2>
 
