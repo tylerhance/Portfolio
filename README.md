@@ -6,7 +6,9 @@ This project was assigned to have me start building out my main portfolio websit
 
 <h2>Design Decisions</h2>
 
-* I built the site out with simplicity in mind. I used simple, clean lines and complimentary colors that help the viewer navigate with ease and not feel overwhelmed with over-complicated themes and colors. The design of the page also relates to the kind of person I am. My initial design had background images and gradient color schemes but I realized that this page is also showing who I am as a person. To give the users a better idea of who I am, I simplified everything and focused more on structure than over-saturating the page with colors and effects. This gives me a solid foundation to keep adding more complex features in the future.
+* I built my portfolio site out with simplicity in mind. I wanted to implement simple, clean lines and complimentary colors that help the viewer navigate with ease and not feel overwhelmed with over-complicated themes and colors. I simplified everything and focused more on structure than over-saturating the page with colors and effects. This gives me a solid foundation to keep adding more complex features in the future.
+
+* I updated my portfolio with the newest project, Gift List. I also included a link with my resume and refactored the aesthetic look and responsiveness of the webpage.
 
 
 <h2>Links</h2>
