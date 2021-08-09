@@ -9,7 +9,28 @@
     --bg: #f8f7f7;
     --header: #3186a7;
     --textcolor: #2a2b30;
+    --cloud: #68bcff;
     --fontstyle: "Noto Sans JP", bolder;
+}
+
+body {
+    background-image: linear-gradient(#F0F2F0, #658bbb);
+    background-attachment: fixed;
+}
+
+
+#welcome {
+    color: #8db3d5;
+
+}
+
+.about-me-container {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 div.jumbotron.jumobtron-fluid {
@@ -18,4 +39,88 @@ div.jumbotron.jumobtron-fluid {
         flex-wrap: wrap;
   }
 
-  
+.jumbotron{
+    position: relative;
+    background:#deedf7;
+    text-align: inherit;
+    margin-bottom: 0 !important;
+}
+
+.nav-item {
+     
+}
+
+.navContainer {
+    display: flex; 
+    background-color: var(--cloud);
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav ul {
+    text-align: center;
+    justify-content: flex-start;
+    flex: auto;
+    flex-wrap: wrap;
+    list-style-type: circle;
+    text-decoration: ;
+    font-size: 20px;
+}
+
+.nav-link {
+    color: var(--navy);
+    font-weight: bolder;
+    text-shadow: 1px 0px 0px #0166aa;
+}
+
+li:hover {
+    border-bottom: 3px solid;
+    color: var(--cloud);
+}
+
+a.nav-link {
+    margin-left: 80px;
+    
+}
+
+.img-thumbnail {
+    margin-top: -30px;
+    margin-left: 20px;
+    border: ridge;
+    box-shadow: 1px 2px var(--navy);
+
+}
+
+.my-work-container {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contact-container {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.resume-container {
+    position: relative;
+    margin-top: 50px;
+    display: grid;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-body {
+    margin-bottom: -10px;
+}
