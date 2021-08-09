@@ -46,10 +46,6 @@ div.jumbotron.jumobtron-fluid {
     margin-bottom: 0 !important;
 }
 
-.nav-item {
-     
-}
-
 .navContainer {
     display: flex; 
     background-color: var(--cloud);

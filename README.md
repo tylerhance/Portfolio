@@ -13,7 +13,7 @@ This project was assigned to have me start building out my main portfolio websit
 
 <h2>Links</h2>
 
-* Check out my portfolio @ https://tylerhance.github.io/webdev-portfolio/
+* Check out my portfolio ![Here](https://tylerhance.github.io/webdev-portfolio/)
 
 
 
